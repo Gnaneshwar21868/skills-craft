@@ -1,0 +1,44 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #36d0d6;
+    color: #38c0cd;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure it appears above other content */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+#main-nav {
+    text-align: center;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#main-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    transition: color 0.3s ease; /* Smooth transition for text color change */
+}
+
+#main-nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
